@@ -15,7 +15,7 @@ jobs:
       image: node:16
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb
-      MONGODB_CLUSTER_ADDRESS: monbodb_test
+      MONGODB_CLUSTER_ADDRESS: mongodb_test
       MONGODB_USERNAME: root
       MONGODB_PASSWORD: example
       PORT: 8080
